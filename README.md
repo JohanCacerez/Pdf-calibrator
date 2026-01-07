@@ -1,6 +1,8 @@
 ## Que es un Reporte
 
-- Es un archivo de texto (.txt) el cual se genera a partir de una calibracion de la maquina de SPEA, este reporte puede estar generado a partir de multiples archivos .txt, el reporte se genera en formato PDF
+- El Reporte es una representación estructurada de una calibración
+- Puede provenir de uno o varios TXT
+  Puede exportarse a PDF
 
 ## La infromacion minima que debe contener cada reporte (.txt) debe ser la siguiente
 
@@ -70,3 +72,15 @@
 - Limite bajo: Limite inferior permitido
 - Limite alto: Limite superior permitido
 - Unidad: Que se mido V, mV, C
+
+15. BOARDRESULT
+
+- Resultado del test
+
+16. TIMEEND
+
+- Fecha y hora en la que termino la calibracion
+
+17. END
+
+- Muestra el resultado de la calibracion y su fecha y hora
